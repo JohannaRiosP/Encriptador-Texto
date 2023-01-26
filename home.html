@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href = "reset.css">
+        <link rel="stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <header>
+            <img src="image/Logo-1.png" class="logo1" alt="Logo de Alura">
+        </header>
+
+        <main>               
+            <section class="primera">
+                <textarea class="ingrese-textarea" cols="30" rows="10" type="text" placeholder="Ingrese su texto aqui"></textarea>
+
+                <div class="caja">
+                    <i class="fa fa-exclamation-circle">  Solo letras minusculas y sin acento.</i>
+                </div>
+
+                <div class="botones-principales">
+                    <button class="boton-encriptar" type="button">Encriptar</button>
+                    <button class="boton-desencriptar" type="button">Desencriptar</button>                
+                </div>
+            </section>
+
+            <section class="segunda">
+                <div class="mostrar">
+                    <textarea class="mostrar-textarea" type="text" cols="40" rows="20"  placeholder="Texto Desencriptado"></textarea>
+                
+                    <div class="copiar">
+                        <button class="boton-copiar" type="button">Copiar</button>                   
+                    </div>
+
+                    <div class="cuadro-muhneco">
+                        <img src="image/Muhneco.png" class="muhneco" alt="Muneco desafio">
+                    </div>
+
+                    <div class="ningun-mensaje">
+                        <legend>Ningun mensaje fue encontrado</legend>
+                    </div>
+
+                    <div class="ingrese-mostrar">
+                        <legend>Ingresa el texto que desees encriptar o desencriptar</legend>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p class="Copyright">&copy Copyright Jenny Johanna Rios - 2022</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+    
+</html>

@@ -1,0 +1,280 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+header{
+    background: rgb(112, 22, 112);
+    padding: 20px 0;
+}
+
+.logo1{
+    margin-top: 40px ;
+    margin-left: 84px;    
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    background: rgb(245, 245, 152);
+    display: flex;
+    justify-content: space-between;
+}
+
+.primera{
+    width: 50%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    background: rgb(245, 245, 152);
+}
+
+.ingrese-textarea{
+    width: 80%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 10%;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 120%;
+    color:#0A3871;
+    background: rgb(245, 245, 152);
+    
+}
+
+.ingrese-textarea::placeholder{
+    color:#0A3871;
+}
+
+.ingrese-textarea:focus{
+    outline: none;
+}
+
+.ingrese-textarea:hover{
+    text-decoration:underline;
+}
+
+.caja{
+    width: 60%;
+    height: 18px;
+    margin-left: 10%;
+    font-family: 'Inter';
+    font-size: 0.5em;
+    font-style: normal;
+    opacity: 0.8; 
+    color: #495057;
+}
+
+.caja i{
+    width: 16px;
+    height: 16px;
+    display: inline;
+    opacity: 0.8;
+    color: #495057;
+}
+
+.botones-principales{
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-encriptar{
+    width: 40%;
+    padding: 0.75em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+    background: #0a3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+    
+}
+
+.boton-encriptar:hover{
+    font-size: 45%;
+    transform: scale(1.2);
+}
+
+.boton-encriptar:before{
+    content:"🔒"; 
+}
+
+.boton-desencriptar{
+    width: 40%;
+    padding: 0.75em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #0a3871;
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+    
+}
+
+.boton-desencriptar:hover{
+    font-size: 45%;
+    transform: scale(1.2);
+}
+
+.boton-desencriptar:before{
+    content:"🔓";
+}
+
+
+.segunda{
+    width: 40%;
+    height: 90%; 
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.mostrar{
+    width: 30%;
+    height: 80%; 
+    padding: 20px;
+    border: none;
+    border-radius: 32px;  
+    background: #FFFFFF;
+    box-sizing: border-box;
+    position:absolute;
+    
+}
+
+.mostrar-textarea{
+    width: 70%;
+    height: 80%;
+    border: none;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 120%;
+    color: #495057;
+    margin: auto; 
+    display: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.mostrar-textarea:focus{
+    outline: none;
+}
+
+.mostrar-textarea:hover{
+    text-decoration:underline;
+}
+
+.copiar{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.boton-copiar{
+    width: 60%;
+    padding: 0.75em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 0.8em;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: white;
+    background: #0a3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;  
+    display: none;
+    position: absolute;  
+    justify-items: center;
+}
+
+.boton-copiar:hover{
+    font-size: 20;
+    transform: scale(1.2);
+}
+
+.boton-copiar:before{
+    content:"📄"; 
+}
+
+.muhneco{
+    width: 90%;
+    height: 70%;
+    margin: 80px 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.ningun-mensaje{
+    width: 70%;
+    height: 10%;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 0.75em;
+    font-weight: bold;
+    line-height: 120%;
+    color: #343A40;
+    box-sizing: border-box;
+   
+}
+
+.ingrese-mostrar{
+    width: 70%;
+    height: 10%;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 0.5em;
+    font-weight: 400;
+    line-height: 120%;
+    color: #343A40;
+    box-sizing: border-box;
+   
+}
+
+
+footer{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(112, 22, 112);
+    color: white;
+    font-weight: bold;
+    clear:left;
+    position: static;
+}
+
+.Copyright{
+    color: write;
+    font-size: 13px;
+    margin: 10px;
+}
+
+
